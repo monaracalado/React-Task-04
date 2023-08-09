@@ -5,6 +5,9 @@ import Header from './components/Header';
 import Menu from './components/Menu';
 import Imutabilidade from './components/Pages/Imutabilidade';
 import HookForm from './components/Pages/HookForm';
+import FormularioSimples from './components/Pages/FomularioSimples';
+import ValidacaoYup from './components/Pages/ValidaçãoYup';
+import NotFound from './components/Pages/NotFound';
 
 function App() {
 
@@ -17,8 +20,11 @@ function App() {
     <Menu/>
     </Header>
     <Routes>
-    <Route path='/Imutabilidade' element={<Imutabilidade />} />
+    <Route path='/' element={<Imutabilidade />} />
+    <Route path='/FormularioSimples' element={<FormularioSimples />} />
     <Route path='/HookForm' element={<HookForm />} />
+    <Route path='/ValidacaoYup' element={<ValidacaoYup />} />
+    <Route path='/*' element={<NotFound />} />
     </Routes>
     <Footer github={'https://github.com/monaracalado'} linkedin={'https://www.linkedin.com/in/monaracalado/'}/>
   </BrowserRouter>

@@ -1,3 +1,35 @@
+<h1 align="center"> Estudo Dirigido </h1>
+
+
+
+
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-sobre-o-projeto">Sobre o Projeto</a>&nbsp;&nbsp;&nbsp;
+</p>
+<p align="center">
+  <img alt="imagem do site pronto no vercel" src="./public/site.png">
+</p>
+
+<p align="center">
+<a href="react-task-04.vercel.app">Projeto no Vercel</a>
+</p>
+
+
+## 🚀 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML/CSS
+- TypeScript
+- React
+
+## 💻 Sobre o Projeto
+
+O projeto é uma aplicação web para apresentar um estudo dirigido. Constando informações sobre Imutabilidade de estado, Formulario Simples, React Hook Form e Validação Yup.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
