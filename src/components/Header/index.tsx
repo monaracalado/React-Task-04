@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
-import React from "react";
 import { styled } from "@mui/system";
+import React from "react";
 
 interface HeaderPrps{
     src:string;
